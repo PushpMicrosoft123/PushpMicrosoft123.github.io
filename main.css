@@ -1,0 +1,45 @@
+﻿h1 {
+    text-align: center;
+    border: 2px solid;
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+div.old, div.new {
+    border: 1px solid #3f3fbf;
+    padding: 10px;
+    height: 250px;
+    width: 31%;
+    overflow: auto;
+    display: inline-block;
+}
+div.header {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+span.old {
+    float: left;
+    padding-left: 10%;
+}
+
+span.new {
+    padding-left: 31%;
+}
+
+span.change {
+    float: right;
+    padding-right: 20%;
+}
+input[type=button]{
+    padding: 5px;
+}
+td {
+    padding: 5px;
+}
+
+table, th, td {
+    border: 1px solid #c5c1c1;
+    border-collapse: collapse;
+}
