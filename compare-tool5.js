@@ -10,9 +10,6 @@
             newHtml: inputNewHtml,
             target: targetSelector
         });
-        $(targetSelector).empty();
-        console.log(_.tool.compare());
-        $(targetSelector).append(_.tool.compare());
     });
     $('#clear').on('click', function (e) {
         _.tool.clear();
