@@ -10,6 +10,7 @@
             newHtml: inputNewHtml,
             target: targetSelector
         });
+        _.tool.compare();
     });
     $('#clear').on('click', function (e) {
         _.tool.clear();
