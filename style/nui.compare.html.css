@@ -1,0 +1,39 @@
+/**
+ * NUI HTML Compare Tool
+ * Copyright 2018 NUI HTML Compare Tool Author[Pushpdeep].
+ *
+ 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+.compare-html-tag {
+    border: 1px solid #3f3fbf;
+    padding: 10px;
+    height: 250px;
+    width: 31%;
+    overflow: auto;
+    display: inline-block
+}
+
+    .compare-html-tag td, .compare-html-tag th, .compare-html-tag > table {
+        border: 1px solid #c5c1c1;
+        border-collapse: collapse
+    }
+
+    .compare-html-tag .deleted {
+        background-color: #d85959;
+        text-decoration: line-through;
+        border: 2px solid #a54646
+    }
+
+    .compare-html-tag .added {
+        background-color: #79d079;
+        border: 2px solid #26ae26
+    }
+
+    .compare-html-tag td {
+        padding: 5px
+    }
