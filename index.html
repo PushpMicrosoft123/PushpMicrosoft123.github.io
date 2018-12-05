@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../vendor js/jquery.min.js"></script>
+    <!--<script src="../vendor js/api3.js"></script>-->
+    <script src="../js/nui.compare.html.min.js"></script>
+    <script src="../compare-tool5.js"></script>
+    <link rel="stylesheet" type="text/css" href="../main.css" />
+    
+    <link rel="stylesheet" type="text/css" href="../style/nui.compare.html.css"/>
+</head>
+<body>
+    <h1>Html Compare Tool</h1>
+    <div class="header">
+        <span class="old">Old Html</span>
+        <span class="new">New Html</span>
+        <span class="change">Changes</span>
+    </div>
+    <div id="old-data" class="old"> 
+        <table>
+            <tr>
+                <td>old first row first cell content</td>
+                <td>old first row second cell content</td>
+            </tr>
+            <tr>
+                <td>old second row first cell content</td>
+                <td>old second row second cell content</td>
+            </tr>
+            <tr>
+                <td>old second row first cell content</td>
+                <td>old second row second cell content</td>
+            </tr>
+        </table>
+        <p>this&nbsp;&nbsp;&nbsp;&nbsp;is the old text. I wouldn't like to update it.
+        <span>new span</span>
+        </p>
+        <span>
+            This was missing in old text.
+        </span>
+        <ul>
+            <li>first option.</li>
+            <li>second option.</li>
+            <li>third option.</li>
+        </ul>
+        <a href="index.html">this is old hyperlink</a>
+        <ol>
+            <li>1. old ordered list item.</li>
+            <li>2. old ordered list item.</li>
+            <li>3. old ordered list item.</li>
+        </ol>
+    </div>
+    <div id="new-data" class="new">
+        <table>
+            <tr>
+                <td>new first cell content</td>
+                <td>new second cell content</td>
+            </tr>
+            <tr>
+                <td>new second row first cell content</td>
+                <td>new second row second cell content</td>
+            </tr>
+        </table>
+        <p>this is new text added.</p>
+        <p>this is the new text. I would like to update old. and i'm adding some extra text here.</p>
+        <span>
+            here i added some extra span
+        </span>
+        <ul>
+            <li>first option has been edited</li>
+            <li><p>third option. <span> this is new span added in the li option.</span></p></li>
+        </ul>
+        <a href="index.html">this is new hyperlink</a>
+        <ol>
+            <li>1. old ordered list item.</li>
+            <li>2. old ordered list item.</li>
+            <li>3. old ordered list item.</li>
+        </ol>
+    </div>
+    <div id="result">
+        
+    </div>
+    <div style="text-align:center;margin-top:70px;">
+        <input id="compare" type="button" value="Compare"/>
+        <input id="clear" type="button" value="Clear Result"/>
+    </div>    
+</body>
+</html>
